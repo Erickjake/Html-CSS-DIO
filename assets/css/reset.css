@@ -1,22 +1,7 @@
-/* Reset de CSS básico */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
-/* Remova o espaçamento padrão do navegador */
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
-    margin: 0;
-    padding: 0;
-}
-
-/* Remova o estilo de lista de marcadores padrão */
-ul, ol {
-    list-style: none;
-}
-
-/* Remova a decoração de link padrão */
-a {
-    text-decoration: none;
-}
-
-/* Defina as fontes base para garantir a consistência */
-body {
-    font-family: Arial, sans-serif; /* Altere para suas preferências de fonte */
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
 }
